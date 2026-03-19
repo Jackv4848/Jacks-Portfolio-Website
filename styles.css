@@ -1,0 +1,32 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 10000px;
+}
+
+.navbar {
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: black;
+    color:white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    cursor:pointer;
+    color: blue;
+}
