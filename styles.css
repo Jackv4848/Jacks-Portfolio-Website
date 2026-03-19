@@ -23,10 +23,20 @@ body {
 }
 
 .navbar ul li {
+    font-family: Merriweather, sans-serif;
     padding: 10px;
 }
 
-.navbar ul li:hover {
-    cursor:pointer;
-    color: blue;
+.navbarLink {
+    color: white;
+    text-decoration: none;
+}
+
+.navbarLink:hover {
+    color: cyan;
+}
+
+.content h1 {
+    display: flex;
+    font-family: Rubik, sans-serif;
 }
